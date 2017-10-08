@@ -241,7 +241,7 @@ public class Hungarian {
         for (int w = 0; w < dimension; w++)
         {
             for (int j = 0; j < dimension; j++)
-            {
+            { 
                 if (matrix[w][j] < min[j])
                 {
                     min[j] = matrix[w][j];
